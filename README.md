@@ -1,16 +1,6 @@
 # Hadoop-Guide-for-Beginners
-```
+Apache Hadoop is a collection of open-source software utilities that facilitates using a network of many computers to solve problems involving massive amounts of data and computation. It provides a software framework for distributed storage and processing of big data using the MapReduce programming model. In this guide we will learn how to run our first project using Hadoop.
 
-                              _   _           _                     _____       _     _      
-                             | | | |         | |                   |  __ \     (_)   | |     
-                             | |_| | __ _  __| | ___   ___  _ __   | |  \/_   _ _  __| | ___ 
-                             |  _  |/ _` |/ _` |/ _ \ / _ \| '_ \  | | __| | | | |/ _` |/ _ \
-                             | | | | (_| | (_| | (_) | (_) | |_) | | |_\ \ |_| | | (_| |  __/
-                             \_| |_/\__,_|\__,_|\___/ \___/| .__/   \____/\__,_|_|\__,_|\___|
-                                                           | |                               
-                                                           |_|                               
-                                                
-```
 ## How to install and run Hadoop using Docker
 1. Make sure you have Docker and Docker-compose installed on your machine.
 2. Clone this repository: `git clone https://github.com/big-data-europe/docker-hadoop`.
@@ -35,7 +25,8 @@
 
 >> You can open UI for HDFS  at `http://localhost:9870`.
 >> You can find your HDFS files at `http://localhost:9870/explorer.html#/`. 
-## Some HDFS Commands:
+
+## Useful HDFS Commands:
 - `hdfs dfs -ls`: list files and directories
 - `hdfs dfs -copyFromLocal`: copy files from local to HDFS
 - `hdfs dfs -put`: copy files from local to HDFS
@@ -140,6 +131,7 @@ Wael
 Mostafa
 Mostafa
 ```
+
 ## Complete commands for the WordCount example:
 1. Open a terminal and run the following commands:
     ```bash
