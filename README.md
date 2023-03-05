@@ -1,5 +1,16 @@
 # Hadoop-Guide-for-Beginners
+```
 
+                              _   _           _                     _____       _     _      
+                             | | | |         | |                   |  __ \     (_)   | |     
+                             | |_| | __ _  __| | ___   ___  _ __   | |  \/_   _ _  __| | ___ 
+                             |  _  |/ _` |/ _` |/ _ \ / _ \| '_ \  | | __| | | | |/ _` |/ _ \
+                             | | | | (_| | (_| | (_) | (_) | |_) | | |_\ \ |_| | | (_| |  __/
+                             \_| |_/\__,_|\__,_|\___/ \___/| .__/   \____/\__,_|_|\__,_|\___|
+                                                           | |                               
+                                                           |_|                               
+                                                
+```
 ## How to install and run Hadoop using Docker
 1. Make sure you have Docker and Docker-compose installed on your machine.
 2. Clone this repository: `git clone https://github.com/big-data-europe/docker-hadoop`.
